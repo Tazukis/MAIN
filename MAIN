@@ -6208,9 +6208,9 @@ end)
 Main:Label("\\\\\  Auto Race V4  //")
 
 
-    Main:Button("Teleport To Timple Of Time",function()
-  Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
-    end)
+Main:Button("Teleport To Timple Of Time",function()
+ Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
+ end)
     
 Main:Button("Teleport To Lever Pull",function()
   topos(CFrame.new(28575.181640625, 14936.6279296875, 72.31636810302734))
@@ -6220,10 +6220,10 @@ Main:Button("Teleport To Acient One (Must Be in Temple Of Time!)",function()
   topos(CFrame.new(28981.552734375, 14888.4267578125, -120.245849609375))
 end)
    
-   Main:Button("Unlock Lever.", function()
+  Main:Button("Unlock Lever.", function()
 venyx:Notify("Unlocked")
 if game:GetService("Workspace").Map["Temple of Time"].Lever.Prompt:FindFirstChild("ProximityPrompt") then
-    game:GetService("Workspace").Map["Temple of Time"].Lever.Prompt:FindFirstChild("ProximityPrompt"):Remove()
+  game:GetService("Workspace").Map["Temple of Time"].Lever.Prompt:FindFirstChild("ProximityPrompt"):Remove()
 else
 --[[]]
 end
@@ -6274,49 +6274,49 @@ ProximityPrompt.Triggered:Connect(onProximity)
 end)
 
 Main:Button("Clock Acces.", function()
-    game:GetService("Workspace").Map["Temple of Time"].DoNotEnter:Remove()
-    game:GetService("Workspace").Map["Temple of Time"].ClockRoomExit:Remove()
+ game:GetService("Workspace").Map["Temple of Time"].DoNotEnter:Remove()
+ game:GetService("Workspace").Map["Temple of Time"].ClockRoomExit:Remove()
 end)
 
 Main:Toggle("Disabled Inf Stairs", nil, function(value)
-	game.Players.LocalPlayer.Character.InfiniteStairs.Disabled = value
+ game.Players.LocalPlayer.Character.InfiniteStairs.Disabled = value
 end)
-   Main:Line()
+Main:Line()
  
-  Main:Button("Teleport Cyborg Door (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(28492.4140625, 14894.4267578125, -422.1100158691406))
-  end)
+Main:Button("Teleport Cyborg Door (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(28492.4140625, 14894.4267578125, -422.1100158691406))
+ end)
   
-  Main:Button("Teleport Fish Door (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(28224.056640625, 14889.4267578125, -210.5872039794922))
-  end)
+Main:Button("Teleport Fish Door (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(28224.056640625, 14889.4267578125, -210.5872039794922))
+ end)
   
-  Main:Button("Teleport Ghoul Door (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(28672.720703125, 14889.1279296875, 454.5961608886719))
-  end)
+Main:Button("Teleport Ghoul Door (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(28672.720703125, 14889.1279296875, 454.5961608886719))
+ end)
   
-  Main:Button("Teleport Human Door (Must Be in Temple Of Time!)",function()
+Main:Button("Teleport Human Door (Must Be in Temple Of Time!)",function()
   topos(CFrame.new(29237.294921875, 14889.4267578125, -206.94955444335938))
   end)
   
-  Main:Button("Teleport Mink Door (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(29020.66015625, 14889.4267578125, -379.2682800292969))
-  end)
+Main:Button("Teleport Mink Door (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(29020.66015625, 14889.4267578125, -379.2682800292969))
+ end)
   
-  Main:Button("Teleport Sky Door (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(28967.408203125, 14918.0751953125, 234.31198120117188))
-  end)
+Main:Button("Teleport Sky Door (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(28967.408203125, 14918.0751953125, 234.31198120117188))
+ end)
   
-  Main:Line()
+Main:Line()
   
-  Main:Button("Teleport To Safe Zone When Pvp (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(28273.0859375, 14896.5078125, 157.42063903808594))
-  end)
+Main:Button("Teleport To Safe Zone When Pvp (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(28273.0859375, 14896.5078125, 157.42063903808594))
+ end)
   
-  Main:Button("Teleport Pvp Zone (Must Be in Temple Of Time!)",function()
-  topos(CFrame.new(28766.681640625, 14967.1455078125, -164.13290405273438))
-  end)
-  end
+Main:Button("Teleport Pvp Zone (Must Be in Temple Of Time!)",function()
+ topos(CFrame.new(28766.681640625, 14967.1455078125, -164.13290405273438))
+ end)
+ end
 
 Weapon:Label("\\\\\  Item & Quest  //")
  
